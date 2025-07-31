@@ -4,6 +4,66 @@ This project implements a simple RISC (Reduced Instruction Set Computer) process
 
 ---
 
+🧩 Features
+✅ Modular RISC architecture with Verilog HDL
+
+✅ ALU supporting arithmetic and logic operations
+
+✅ Controller for instruction decoding and control signal generation
+
+✅ Register file with read/write operations
+
+✅ Program counter and memory interaction
+
+✅ Separate testbenches for each major component
+
+✅ Sample programs to simulate and verify behavior
+
+▶️ How to Simulate in ModelSim
+This project is designed to be simulated using ModelSim.
+
+---
+
+💻 Steps:
+Open ModelSim
+
+Create a new project
+
+Add all Verilog source files from the src/ folder
+
+Add the relevant testbench from tb/ (e.g., risc_test.v)
+
+Compile all files
+
+Run the simulation
+
+(Optional) Use Add Wave and view signals
+
+---
+
+🧪 Test Programs
+CPUtest1.txt, CPUtest2.txt, and CPUtest3.txt contain sample programs in memory format.
+
+You can modify or extend these programs to verify specific instructions or logic paths.
+
+---
+
+🔁 Possible Improvements
+Add pipelining (e.g., 5-stage pipeline)
+
+Add hazard detection and data forwarding
+
+Expand ALU with more operations (e.g., shifts, comparisons)
+
+Extend instruction set and control logic
+
+Add instruction/data separation or caching
+
+---
+
+👤 Author
+George Jan
+
 ## 📁 Project Structure
 
 ```text
@@ -34,57 +94,3 @@ my-verilog-RISC/
 │   ├── CPUtest3.txt             # Program 3 input file
 │
 ├── README.md                    # Project documentation (this file)
----
-🧩 Features
-✅ Modular RISC architecture with Verilog HDL
-
-✅ ALU supporting arithmetic and logic operations
-
-✅ Controller for instruction decoding and control signal generation
-
-✅ Register file with read/write operations
-
-✅ Program counter and memory interaction
-
-✅ Separate testbenches for each major component
-
-✅ Sample programs to simulate and verify behavior
-
-▶️ How to Simulate in ModelSim
-This project is designed to be simulated using ModelSim.
----
-💻 Steps:
-Open ModelSim
-
-Create a new project
-
-Add all Verilog source files from the src/ folder
-
-Add the relevant testbench from tb/ (e.g., risc_test.v)
-
-Compile all files
-
-Run the simulation
-
-(Optional) Use Add Wave and view signals
----
-🧪 Test Programs
-CPUtest1.txt, CPUtest2.txt, and CPUtest3.txt contain sample programs in memory format.
-
-You can modify or extend these programs to verify specific instructions or logic paths.
----
-🔁 Possible Improvements
-Add pipelining (e.g., 5-stage pipeline)
-
-Add hazard detection and data forwarding
-
-Expand ALU with more operations (e.g., shifts, comparisons)
-
-Extend instruction set and control logic
-
-Add instruction/data separation or caching
-
----
-
-👤 Author
-George Jan
