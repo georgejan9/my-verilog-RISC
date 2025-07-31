@@ -4,7 +4,7 @@ This project implements a simple RISC (Reduced Instruction Set Computer) process
 
 ---
 
-🧩 Features
+## 🧩 Features
 ✅ Modular RISC architecture with Verilog HDL
 
 ✅ ALU supporting arithmetic and logic operations
@@ -19,10 +19,8 @@ This project implements a simple RISC (Reduced Instruction Set Computer) process
 
 ✅ Sample programs to simulate and verify behavior
 
-▶️ How to Simulate in ModelSim
+## ▶️ How to Simulate in ModelSim
 This project is designed to be simulated using ModelSim.
-
----
 
 💻 Steps:
 Open ModelSim
@@ -41,14 +39,14 @@ Run the simulation
 
 ---
 
-🧪 Test Programs
+## 🧪 Test Programs
 CPUtest1.txt, CPUtest2.txt, and CPUtest3.txt contain sample programs in memory format.
 
 You can modify or extend these programs to verify specific instructions or logic paths.
 
 ---
 
-🔁 Possible Improvements
+## 🔁 Possible Improvements
 Add pipelining (e.g., 5-stage pipeline)
 
 Add hazard detection and data forwarding
@@ -61,7 +59,7 @@ Add instruction/data separation or caching
 
 ---
 
-👤 Author
+## 👤 Author
 George Jan
 
 ## 📁 Project Structure
